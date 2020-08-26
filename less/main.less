@@ -1,0 +1,82 @@
+
+@pink:'#ff4081';
+
+@black:'#333';
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: @black !important;
+
+}
+.bg-pink{
+    background-color: #ff4081;
+}
+.bg-white{
+    background-color: #fff;
+}
+
+@pink:'#ff4081';
+
+
+.gray{
+    color: #333;
+}
+
+//Step 1: Create Grid Layout
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    background-color: #888888;
+  }
+
+  .header{
+      background-color: #0070FF;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+  }
+
+.hero{
+background-color: #FF0067;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+
+
+.side-bar{
+    background-color: #219653;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+  .main{
+      background-color: #9B51E0;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 4;
+  }
+
+  .posts{
+    background-color: #ED7F41;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+  .footer{
+    background-color: #ADF2FC;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+//Step 2: Add Flexbox Layout
